@@ -7,6 +7,7 @@ Introduction - In this work, we focus on mining sentiments and analyzing them fo
 Motivation - In the rural areas, where population is more, people usually speak in their mother tongue which is Hindi. Some of the biggest news channels of India use Hindi as their primary language. In order to know whether a particular rural section of the society is having a positive, neutral or a negative mindset towards a particular topic can be tough. Hence, we are doing Sentiment Analysis in Hindi to find out if there's a sense of support or not behind that particular agenda without having to do it manually.
 
 We have considered a dataset that contains approximately 10,000 tweets in Hindi and whether that tweet was positive, neutral or negative
+
 Link: https://github.com/sid573/Hindi_Sentiment_Analysis/blob/master/hi_3500.ods
 
 We are following 2 types of models here. First one is a basic and simple one while the 2nd one is more advanced.
@@ -37,11 +38,13 @@ For more details refer to the project documentation.
 ##Using our trained model
 
 Download the export.pkl file from the link below (size was too big to upload here)
+
 Link: https://drive.google.com/file/d/1rLaRoIzGGea4ttWnDd5KsIqOfbK5q6PA/view?usp=sharing
 
 Import the fastai libraries
 
 Run the following:
+
 varname = load_learner("path to the export.pkl file")
 
 The trained model will be stored in the varname object and can be used for classification.
