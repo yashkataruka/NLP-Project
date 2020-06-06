@@ -31,9 +31,7 @@ The second model is fastai's ULMFiT model. We have used the pretrained AWD_LSTM 
 
 The ULMFiT model works in two parts. First we prepare the data for the language model without the labels by splitting it in train and test sets in a 90:10 ratio. Then in the second part we prepare the data, this time with the labels, for the classifier with the train-test ratio as 70:30. Trainig the classifier requires the trained language model.
 
-Finally, fine tuning is done to improve the accuracy further. 
-
-For more details refer to the project documentation.
+Finally, fine tuning is done to improve the accuracy further.
 
 ## Using our trained model
 
