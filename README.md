@@ -35,7 +35,7 @@ Finally, fine tuning is done to improve the accuracy further.
 
 For more details refer to the project documentation.
 
-##Using our trained model
+## Using our trained model
 
 Download the export.pkl file from the link below (size was too big to upload here)
 
